@@ -23,7 +23,7 @@
 //
 // simple wrapper demonstrating how to use the deltille library
 //
-
+#define OPENCV_TRAITS_ENABLE_DEPRECATED
 #include <vector>
 #include <string>
 #include <stdexcept>

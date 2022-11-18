@@ -22,7 +22,7 @@ set(CMAKE_MODULE_PATH "${CMAKE_MODULE_PATH} ${CMAKE_SOURCE_DIR}/cmake")
 
 include(GNUInstallDirs)
 
-option(BUILD_APPS "Build the executable to detect and write corners to disk. Requires Boost" OFF)
+option(BUILD_APPS "Build the executable to detect and write corners to disk. Requires Boost" ON)
 option(WITH_MATLAB "Build Matlab buindings" OFF)
 
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
